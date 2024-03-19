@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import {
+  Mail,
   Code,
   Flame,
   Github,
@@ -33,97 +34,41 @@ const Menu: FC<MenuProps> = ({}) => {
         <X className={`text-primary`} />
       </div>
       {/* List 1 */}
-      <List link="/" effect="slideUp">
-        <Home /> Home
-      </List>
-      <List link="/" effect="slideUp">
-        <Flame /> Trending
-      </List>
-      <List link="/" effect="slideUp">
-        <Code /> Snippets
-      </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
-        <Video /> Videos
-      </List>
-
+     
       {/* List 2 */}
       <div className="mt-5">Socials</div>
       <List
         target="_blank"
-        link="https://www.instagram.com/ezsnippet/"
+        link="mailto:asimcyb@gmail.com"
         effect="slideUp"
       >
-        <Instagram color="#b5179e" /> Instagram
+        <Mail color="#b5179e" /> E-Mail
       </List>
-      <List target="_blank" link="https://github.com/nwaliaez" effect="slideUp">
+      <List target="_blank" link="https://github.com/asim-cyb1" effect="slideUp">
         <Github color="#2a9d8f" /> Github
       </List>
       <List
         target="_blank"
-        link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
+        link="https://www.youtube.com/channel/UCRymWd7bF5TQqCSCKZbiKhg"
         effect="slideUp"
       >
         <Youtube color="#e63946" /> Youtube
       </List>
       <List
         target="_blank"
-        link="https://stackoverflow.com/users/20331641/neeraj-walia"
+        link="https://leetcode.com/asimcyb_1x/"
         effect="slideUp"
       >
-        <Layers color="#f77f00" /> Stack overflow
+        <Layers color="#f77f00" /> Leet Code
       </List>
       <List
         target="_blank"
-        link="https://www.linkedin.com/in/ezSnippet/"
+        link="https://www.linkedin.com/in/asim-mahroos-mohammed-943a18207/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
       </List>
 
-      {/* List 3 */}
-      {/* <div className="mt-5">Projects</div>
-            <List
-                target="_blank"
-                link="https://github.com/nwaliaez/ezClothing"
-                effect="slideUp"
-            >
-                <Shirt /> Ez CLothing
-            </List>
-            <List
-                target="_blank"
-                link="https://github.com/nwaliaez/eCommerce"
-                effect="slideUp"
-            >
-                <ShoppingCart /> eCommerce
-            </List>
-            <List
-                target="_blank"
-                link="https://github.com/nwaliaez/HardhatLottery"
-                effect="slideUp"
-            >
-                <Ticket /> Lottery
-            </List>
-            <List
-                target="_blank"
-                link="https://github.com/nwaliaez/filetransfer-webrtc"
-                effect="slideUp"
-            >
-                <Share2 /> File Sharing
-            </List>
-            <List
-                target="_blank"
-                link="https://github.com/nwaliaez/dalleClone"
-                effect="slideUp"
-            >
-                <ImageIcon /> Dalle Clone
-            </List>
-            <List
-                target="_blank"
-                link="https://snake-nwaliaez.vercel.app/"
-                effect="slideUp"
-            >
-                <Scissors /> Ex Clone
-            </List> */}
     </div>
   );
 };
