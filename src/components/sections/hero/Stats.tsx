@@ -15,7 +15,7 @@ const Stats: FC<StatsProps> = ({}) => {
             <Link
                 className="hidden md:block"
                 target="_blank"
-                href="https://drive.google.com/file/d/125v0M6hDzzaMsTwlYLOTPcZiuOSqlK6A/view?usp=sharing"
+                href="https://drive.google.com/file/d/1WsdWyBsuGU-rvo_YYLNHWbMLSL8iO8xX/view"
             >
                 <Button variant="primary" sizes={'small'}>
                    
