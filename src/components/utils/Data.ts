@@ -35,6 +35,13 @@ export const projectCard: IProjectSectionCardData[] = [
     techStack: 'React.js, Material.UI, Spring-boot, Hibernate, MongoDB',
     imageUrl: 'indeed-clone.jpg',
     href: 'https://github.com/asim-cyb1/Indeed-Clone',
+  },
+  {
+    id: 2,
+    title: 'Decentralized Blockchain Application',
+    techStack: ': React.Js, Typescript, Solidity, Metamask, Ganache',
+    imageUrl: 'dapp.jpg',
+    href: 'https://github.com/asim-cyb1/Decentalized-BlockChain-APP',
   }
   
 ];
