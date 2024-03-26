@@ -8,7 +8,7 @@ const Hero: FC<HeroProps> = ({}) => {
     return (
         <section className="flex mt-10">
             <Intro />
-            <Stats />
+           
         </section>
     );
 };

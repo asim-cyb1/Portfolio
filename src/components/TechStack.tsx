@@ -13,12 +13,12 @@ const TechStack: FC<TechStackProps> = ({}) => {
         <TechCard
           title="Programming Languages"
           className="bg-[#4f91f2]"
-          tech={['Java', 'Python', 'C++', 'Ruby', 'Shell']}
+          tech={['Java', 'Python', 'C++', 'C']}
         />
         <TechCard
           title="Frontend"
           className="bg-[#f37c36]"
-          tech={['HTML', 'CSS', 'JavaScript', 'React.js', 'Angular', 'Next.js']}
+          tech={['HTML', 'CSS', 'JavaScript', 'React.js','Next.js']}
         />
         <TechCard
           title="Backend"
@@ -27,19 +27,15 @@ const TechStack: FC<TechStackProps> = ({}) => {
         />
         <TechCard
           title="Databases"
-          className="bg-[#10c0a2]"
+          className="bg-[#f37c36]"
           tech={['MySQL', 'SQL', 'MongoDB']}
         />
         <TechCard
           title="Cloud & DevOps"
           className="bg-[#4f91f2]"
-          tech={['GCP', 'Apache Spark', 'Kafka', 'Docker', 'Kubernetes', 'Git', 'GitLab', 'Jenkins']}
+          tech={['GCP', 'Apache Spark', 'Kafka', 'Docker', 'Kubernetes', 'Git', 'GitHub', 'Jenkins']}
         />
-        <TechCard
-          title="Infrastructure"
-          className="bg-[#f37c36]"
-          tech={['Linux', 'Unix', 'Apache']}
-        />
+       
         <TechCard
           title="Machine Learning & Data Science"
           className="bg-[#e0558a]"
@@ -47,13 +43,13 @@ const TechStack: FC<TechStackProps> = ({}) => {
         />
         <TechCard
           title="Platform-as-a-Service (PaaS)"
-          className="bg-[#10c0a2]"
+          className="bg-[#f37c36]"
           tech={['Oracle VBCS', 'Oracle OIC']}
         />
         <TechCard
-          title="Others"
+          title="APIs"
           className="bg-[#4f91f2]"
-          tech={['Kafka', 'REST']}
+          tech={['SOAP', 'REST']}
         />
       </div>
     </div>

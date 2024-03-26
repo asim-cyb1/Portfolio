@@ -18,12 +18,12 @@ const Cover: FC<CoverProps> = ({}) => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://www.linkedin.com/in/asim-mahroos-mohammed-943a18207/"
+                            href="https://drive.google.com/file/d/1kZDopXnCtCV4PMKanQKJAilJLliW3e_K/view?usp=sharing"
                         >
                             <Button variant="primary" sizes={'small'}>
-                                <Linkedin />
+                                
                                 <span className="hidden md:block">
-                                    Checkout My LinkedIN
+                                    Checkout My Resume
                                 </span>
                             </Button>
                         </Link>
