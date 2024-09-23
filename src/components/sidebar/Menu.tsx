@@ -63,7 +63,6 @@ const Menu: FC<MenuProps> = ({}) => {
       </List>
       <List
         target="_blank"
-        link="https://www.linkedin.com/in/asim-mahroos-mohammed-943a18207/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
